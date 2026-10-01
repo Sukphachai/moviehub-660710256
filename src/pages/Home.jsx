@@ -1,5 +1,5 @@
 import { useEffect,useState } from 'react';
-import { getMovies } from '../api/tmdb';
+import { getMovies } from '../api/backend';   // TODO ขั้นที่ 5: เปลี่ยนจาก tmdb.js มาเป็น backend.js
 import { Link } from 'react-router-dom';
 import FeaturedCarousel from '../components/FeaturedCarousel';
 
